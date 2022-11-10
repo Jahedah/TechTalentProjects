@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Use https://www.w3schools.com/jsref/dom_obj_style.asp to amend styles-->
+    <script type="text/javascript">
+      function myEvent1() {
+        document.getElementById("text1").style.color = "red";
+      }
+
+      function myEvent2() {
+        document.getElementById("text2").style.color = "orange";
+      }
+
+      function myEvent3() {
+        document.getElementById("text3").style.color = "yellow";
+      }
+    </script>
+
+    <h1>Manipulating CSS With JS</h1>
+    <!-- This is where I'm adding my first button-->
+    <button type="button" onclick="myEvent1()">onclick Event</button>
+    <p id="text1">
+      Here is some text that will change when the button is clciked
+    </p>
+
+    <!-- This is where I'm adding my second button-->
+    <button type="button" onclick="myEvent2()">onclick Event</button>
+    <p id="text2">
+      Here is some text that will change when the button is clciked
+    </p>
+
+    <!-- This is where I'm adding my thrid button-->
+    <button type="button" onclick="myEvent3()">onclick Event</button>
+    <p id="text3">
+      Here is some text that will change when the button is clciked
+    </p>
+  </body>
+</html>

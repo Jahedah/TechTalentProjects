@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Scripts to Change CSS</title>
+</head>
+<body>
+    <!-- This is where we are going to add the JavaScript-->
+    <script type="text/javascript">
+        function myEvent(){
+            //alert('Running a function');
+            document.getElementById('edit_p').style.color = "red";
+        }
+    </script>
+    <h1>Manipulating CSS With JS</h1>
+    <button type="button" onclick="myEvent()">onclick Event</button>
+    <p id="edit_p">Here is some text that will change when the button is clicked</p>
+    
+
+
+
+</body>
+</html>

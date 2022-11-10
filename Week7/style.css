@@ -1,0 +1,64 @@
+html, body {
+    background-color: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: darkblue;
+    margin: 20px;
+}
+
+a{
+
+color:blueviolet;
+font-weight: bolder;
+}
+
+a:hover{
+    color:darkviolet;
+}
+
+
+/* NAVIGATION BAR STYLING*/
+.my-Navigation-bar{
+    overflow: hidden;
+    float: right;
+}
+
+/* DARK MODE STYLING */
+.dark-mode{
+    background-color: darkmagenta;
+    color: lavender;
+}
+
+/* BLOG STYLING */
+.blog {
+ width:75%;
+}
+
+.blog-title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.blog-author {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blog-content {
+    padding:15px;
+}
+
+/* SUBMISSION FORMS STYLING */
+.form-input, .form, .textatra-input {
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+}
+
+.textarea-input {
+    width: 250px;
+    height: 150px;
+}

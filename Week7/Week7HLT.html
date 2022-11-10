@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link href=" style.css" rel="stylesheet" type=" text/css" />
+  </head>
+  <body>
+    <!-- Navigation bar-->
+    <div class="my-Navigation-bar">
+      <a href="Week7HLT.html"> Home </a><br />
+      <a href="contact.html">Contact</a><br />
+      <a href="#" onclick="darkMode()"> Toggle Dark Mode</a>
+    </div>
+
+    <!-- space for new blog-->
+    <div class="blog" -->
+      <div class="blog title">
+        <span id="new-title"></span>
+      </div>
+      <div class="blog author">`
+        <span id="new-author"></span>
+      </div>
+      <div class="blog content">
+        <span id="new-content"></span>
+      </div>
+    </div>
+
+    <!-- dummy blog-->
+    <div class="blog">
+      <h1><div class="blog-title">Music blog</div></h1>
+      <h2><div class="blog author">By Audiohype</div></h2>
+      <div class="blog-content"> Music fans have never had so much choice when it comes to keeping up with the latest music news and releases. But, as always with so much choice, it’s difficult to know which sites are worth reading, and which aren’t.
+        That’s why we’ve compiled this list of the best music blogs, online music magazines and music discovery sites.
+        Whether you’re into Indie Rock, Pop, EDM, or Hip Hop you can find your new favourite music blog here.
+        We’ve selected a variety of blogs, from industry leaders to smaller more niche publications, and we’ve done our best to group them by genre to make it easier to find what you’re looking for.</div>
+    </div>
+
+    <!-- Form for blog submission -->
+    <h2> New Blog Entry </h2>
+    <form id="submission-form"
+    action="/" method="GET" onsubmit="return validateForm()">
+    <div>
+         <label for="entry-name">Entry Name * </label>
+          <br>
+         <input id="entry" name="entry"
+         type="text" class="form" required>
+          <br>
+         <label for="author-name">Author Name * </label>
+          <br>
+         <input id="author-name" name="author-name"
+         type="text" class="form" required>
+          <br>
+         <label for="blog-content">Your message * </label>
+          <br>
+        <textarea id="blog-content" name="blog-content"
+         class="form" required></textarea>
+          <br>
+         <input type="submit" />
+    </div>
+
+
+
+  </body>
+</html>

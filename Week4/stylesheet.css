@@ -1,0 +1,54 @@
+html, body {
+    background-color:ivory;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:darkred;
+    margin: 20px;
+}
+
+a{
+
+color:darkred;
+font-weight: bolder;
+}
+
+/* NAVIGATION BAR STYLING*/
+.my-Navigation-bar{
+    overflow: hidden;
+    float: right;
+}
+
+
+/* BLOG STYLING */
+.Mybakery {
+ width:75%;
+}
+
+.Bakery-title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Bakery-content {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Bakery-content {
+    padding:15px;
+}
+
+/* SUBMISSION FORMS STYLING */
+.form-input, .form, .textatra-input {
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+}
+
+.textarea-input {
+    width: 250px;
+    height: 150px;
+}

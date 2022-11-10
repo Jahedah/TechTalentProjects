@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding a form</title>
+
+</head>
+<body>
+
+    <h1>Manipulating CSS With JS</h1>
+    <!-- This is an example only.
+        The JavaScript should be stored in an external file
+    -->
+    <script>
+    function analyseForm(){
+        window.alert("Hello " + document.getElementById('fname').value);
+    }
+    </script>
+    
+    <form onsubmit = "return analyseForm()">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" value=""><br>
+        <input type="submit" name="submitForm" value="Submit">
+    </form>
+
+
+
+</body>
+</html>
